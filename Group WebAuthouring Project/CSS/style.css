@@ -164,12 +164,22 @@ h4{
     left: 180px;
 }
 
-.hat_slavka
+.hair2
 {
       position: absolute;
     width:555px;
     height:770px;
-    background-image: url(../IMG/hat\ slavka.png);
+    background-image: url(..//IMG/hat\ slavka.png);
+    top:-100px;
+    left: 180px;
+}
+
+.hair3
+{
+      position: absolute;
+    width:555px;
+    height:770px;
+    background-image: url(..//IMG/hair_jade.png);
     top:-100px;
     left: 180px;
 }
@@ -183,6 +193,26 @@ h4{
     width:555px;
     height:770px;
     background-image: url(..//IMG/top1.png);
+    top:-100px;
+    left: 180px;
+}
+
+.top2
+{
+      position: absolute;
+    width:555px;
+    height:770px;
+    background-image: url(..//IMG/top\ slavka.png);
+    top:-100px;
+    left: 180px;
+}
+
+.top3
+{
+      position: absolute;
+    width:555px;
+    height:770px;
+    background-image: url(..//IMG/top_jade.png);
     top:-100px;
     left: 180px;
 }

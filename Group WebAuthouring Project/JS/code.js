@@ -72,16 +72,20 @@ function nexthair()
     }
     else if (state.j ===1)
     {
-        hair.setAttribute("class","hat_slavka");
-        state.i++;
+        hair.setAttribute("class","hair2");
+        state.j++;
         console.log(state.j);
     }
      else if (state.j ===2)
     {
-        hair.setAttribute("class","hair_jade");
-        state.i=0;
+        hair.setAttribute("class","hair3");
+        
+        console.log(state.j);
+        state.j=0;
     }
+    
 }
+
 
 function nexttop()
 {   
@@ -91,6 +95,18 @@ function nexttop()
     {
         top.setAttribute("class","top1");
         state.k++;
+        console.log(state.k);
+    }
+    else if (state.k ===1)
+    {
+        hair.setAttribute("class","top2");
+        state.k++;
+        console.log(state.k);
+    }
+      else if (state.k ===2)
+    {
+        hair.setAttribute("class","top3");
+        state.k=0;
         console.log(state.k);
     }
 }
