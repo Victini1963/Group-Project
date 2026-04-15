@@ -72,7 +72,7 @@ function nexthair()
     }
     else if (state.j ===1)
     {
-        hair.setAttribute("class","hat slavka");
+        hair.setAttribute("class","hat_slavka");
         state.i++;
         console.log(state.j);
     }

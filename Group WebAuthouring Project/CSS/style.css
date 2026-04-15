@@ -164,6 +164,16 @@ h4{
     left: 180px;
 }
 
+.hat_slavka
+{
+      position: absolute;
+    width:555px;
+    height:770px;
+    background-image: url(../IMG/hat\ slavka.png);
+    top:-100px;
+    left: 180px;
+}
+
 
 /* Top images */
 
