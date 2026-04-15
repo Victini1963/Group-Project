@@ -70,6 +70,17 @@ function nexthair()
         state.j++;
         console.log(state.j);
     }
+    else if (state.j ===1)
+    {
+        hair.setAttribute("class","hat slavka");
+        state.i++;
+        console.log(state.j);
+    }
+     else if (state.j ===2)
+    {
+        hair.setAttribute("class","hair_jade");
+        state.i=0;
+    }
 }
 
 function nexttop()
