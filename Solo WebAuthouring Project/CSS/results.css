@@ -1,0 +1,17 @@
+body {
+    background-image: url(../IMG/Room1.jpg);
+     background-size: 100%;
+    display:flex;
+    justify-content:center;
+    
+}
+
+.page{
+    
+    padding:80px;
+    background-color: rgb(251, 149, 210,0.6);
+    height: 650px;
+    width: 1000px;
+    
+}
+

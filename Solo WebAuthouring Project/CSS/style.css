@@ -1,0 +1,271 @@
+body {
+    background-image: url(../IMG/Room1.jpg);
+     background-size: 100%;
+    display:flex;
+    justify-content:center;
+    
+}
+
+.page{
+    display:flex;
+    gap:100px;
+    align-items:flex-start;
+    padding:20px;
+    background-color: rgb(251, 149, 210,0.6);
+    
+}
+
+.ui{
+    width:500px;
+    background-color: rgb(251, 149, 210, 0.8);
+    height: 770px;
+    padding-left: 40px;
+    
+}
+
+form{
+     margin: 25px;
+    flex-direction:column;
+    gap:10px;
+}
+
+h4{
+    
+    margin: 25px;
+    
+}
+
+.description{
+   width: 350px;
+  height: 120px;
+  margin-top: 5px;
+}
+
+
+/* #firstname
+{
+     flex-grow: 1;
+  flex-basis: 160px;
+}
+  
+
+#lastname{
+ flex-grow: 3;
+  flex-basis: 200px;
+} */
+
+
+#container
+{
+ 
+ position:relative;
+ width: 755px;
+ height:770px;
+
+}
+
+#background
+{
+    position:absolute;
+    width: 555px;
+    height:770px;
+    left :100px;
+    right:100px;
+  
+     
+}
+
+#body
+{
+    position: absolute;
+    width:555px;
+    height:770px;
+    top:-100px;
+    left: 180px;
+}
+
+
+
+
+
+
+/* Body Images */
+.body1
+{
+    position: absolute;
+    width:555px;
+    height:770px;
+    background-image: url(../IMG/Body\ Red.png);
+    
+    
+}
+
+.body2
+{
+    position: absolute;
+    width:555px;
+    height:770px;
+    background-image: url(../IMG/Body\ Orange.png);
+}
+
+.body3
+{
+    position: absolute;
+    width:555px;
+    height:770px;
+    background-image: url(../IMG/Body\ Yellow.png);
+}
+
+.body4
+{
+    position: absolute;
+    width:555px;
+    height:770px;
+    background-image: url(../IMG/Body\ Green.png);
+}
+
+.body5
+{
+    position: absolute;
+    width:555px;
+    height:770px;
+    background-image: url(../IMG/Body\ Blue.png);
+}
+
+.body6
+{
+    position: absolute;
+    width:555px;
+    height:770px;
+    background-image: url(../IMG/Body\ Purple.png);
+}
+
+.body7
+{
+    position: absolute;
+    width:555px;
+    height:770px;
+    background-image: url(../IMG/Body\ Pink.png);
+}
+
+
+
+/* Hair Images */
+.hair1
+{
+      position: absolute;
+    width:555px;
+    height:770px;
+    background-image: url(..//IMG/hair1.png);
+    top:-100px;
+    left: 180px;
+}
+
+
+/* Top images */
+
+.top1
+{
+      position: absolute;
+    width:555px;
+    height:770px;
+    background-image: url(..//IMG/top1.png);
+    top:-100px;
+    left: 180px;
+}
+
+.bottoms1
+{
+      position: absolute;
+    width:555px;
+    height:770px;
+    background-image: url(..//IMG/bottoms1.png);
+    top:-100px;
+    left: 180px;
+}
+
+.shoes1
+{
+      position: absolute;
+    width:555px;
+    height:770px;
+    background-image: url(..//IMG/shoes1.png);
+    top:-100px;
+    left: 180px;
+}
+
+
+
+
+/* LOOK OVER THIS */
+#nextbody {
+    position: absolute;
+    left: 10px;
+    top: 210px;
+    left: 100px;
+}
+
+#nexthair {
+    position: absolute;
+    left: 10px;
+    top: 290px;
+    left: 100px;
+}
+
+#nexttop {
+    position: absolute;
+    left: 10px;
+    top: 400px;
+    left: 100px;
+}
+
+#nextbottoms {
+    position: absolute;
+    left: 10px;
+    top: 500px;
+    left: 100px;
+}
+
+#nextshoes {
+    position: absolute;
+    left: 10px;
+    top: 600px;
+    left: 100px;
+}
+
+
+/* tEST 2 */
+/* .containeR {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.box {
+  position: relative;
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.site {
+  border: 1px solid red;
+}
+  
+img {
+  max-width: 100%;
+  height: auto;
+} */
