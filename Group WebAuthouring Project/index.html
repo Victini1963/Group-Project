@@ -4,137 +4,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <link rel="stylesheet" type="text/css" href="CSS/start.css">
   <title>Character Creation</title>
 </head>
 
 <body>
+ <div class="page">
+  <div id="container">
 
-  <div class="page">
-
-    <!-- left side with the character -->
-    <div id="container">
-
-      <div id="background">
-        <div id="body"></div>
-        <div id="bottoms"></div>
-        <div id="hair"></div>
-        <div id="top"></div>
-        <div id="shoes"></div>
-      </div>
-
-      <input type="button" value="Body" id="nextbody" onclick="nextbody()">
-      <input type="button" value="Hair" id="nexthair" onclick="nexthair()">
-      <input type="button" value="Top" id="nexttop" onclick="nexttop()">
-      <input type="button" value="Bottoms" id="nextbottoms" onclick="nextbottoms()">
-      <input type="button" value="Shoes" id="nextshoes" onclick="nextshoes()">
-
-    </div>
-
-    <!-- RIGHT SIDE (Text + Form) -->
-    <div class="ui">
-
-      <H1 class="Heading">Character Creation</H1>
-
-      <form action="Done.html" method="GET">
-
-
-        <input type="hidden" name="body" id="bodyInput">
-        <input type="hidden" name="hair" id="hairInput">
-        <input type="hidden" name="top" id="topInput">
-        <input type="hidden" name="bottoms" id="bottomsInput">
-        <input type="hidden" name="shoes" id="shoesInput">
-        <!--  -->
-
-        <label for="firstname">First Name</label>
-        <input type="text" id="firstname" name="firstname">
+     <h1> Welcome to Dress Up Wonder!</h1>
+     <br>
+      <br>
         <br>
         <br>
-        <label for="lastname">Last Name</label>
-        <input type="text" id="lastname" name="lastname">
         <br>
-        <br>
-        <h4>Gender</h4>
-
-        <input type="radio" id="boy" name="gender" value="Boy">
-        <label for="boy">Boy</label>
-
-        <input type="radio" id="girl" name="gender" value="Girl">
-        <label for="girl">Girl</label>
-
-        <input type="radio" id="other" name="gender" value="Other">
-        <label for="other">Other</label>
-        <br>
-        <br>
-
-        <h4>Race</h4>
-        <input type="radio" id="human" name="race" value="Human">
-        <label for="human">Human</label>
-
-        <input type="radio" id="elf" name="race" value="Elf">
-        <label for="elf">Elf</label>
-
-        <input type="radio" id="dwarf" name="race" value="Dwarf">
-        <label for="dwarf">Dwarf</label>
-        <br>
-
-        <h4> personality Traits</h4>
-        <input type="checkbox" id="personality1" name="personality1" value="Kind">
-        <label for="personality1"> Kind</label><br>
-        <input type="checkbox" id="personality2" name="personality2" value="Funny">
-        <label for="personality2"> Funny</label><br>
-        <input type="checkbox" id="personality3" name="personality3" value="Evil">
-        <label for="personality3"> Evil</label>
-
-        <br>
-        <br>
-        <!-- <label for="personality"> Description of personality</label>
-        <input type="text" id="personality" name="personality"> -->
-        <label> <br> Backstory</label><br>
-        <textarea class="description" name="backstory"> </textarea>
-
-        <br>
-        <br>
-        <input type="submit" value="Submit">
-
-      </form>
-
-    </div>
-
-  </div>
-
-  <script src="JS/code.js"></script>
-
+      <a href="MainPage.html" class="button">
+       
+      <h2> PLAY!</h2>
+      
+      </a>
+</div>
+</div>
 </body>
-
-
-
-
-<!-- 
-
-<div class="site">
-  <div class="containeR">
-    <div class="row">
-      <div class="box">
-        <img src="../Solo WebAuthouring Project/IMG/Body Red.png" alt="">
-        <h2>Title #1</h2>
-        
-      </div>
-      <div class="box">
-        <img src="../Solo WebAuthouring Project/IMG/Body Green.png" alt="">
-        <h2>Title #1</h2>
-       
-      </div>
-      <div class="box">
-        <img src="../Solo WebAuthouring Project/IMG/Body Green.png" alt="">
-        <h2>Title #1</h2>
-       
-      </div>
-      <div class="box">
-        <img src="../Solo WebAuthouring Project/IMG/Body Green.png" alt="">
-        <h2>Title #1</h2>
-        
-      </div>
-    </div>
-  </div>
-</div> -->
+</html>

@@ -1,0 +1,59 @@
+@font-face {
+    font-family:font;
+    src: url(../Fonts/Starborn.ttf)
+}
+body {
+    background-image: url(../IMG/Room1.jpg);
+     background-size: 100%;
+    display:flex;
+    justify-content:center;
+}
+
+.page{
+    display:flex;
+    justify-self: center;
+    gap:100px;
+    
+    padding:200px;
+    background-color: rgb(251, 149, 210,0.6);
+    border-radius: 20px;
+    
+}
+h1{
+  font-family: "font";
+  color: rgb(247, 255, 177);
+}
+h2{
+      font-family: "font";
+  color: rgb(172, 74, 131);
+}
+
+.container
+{
+ 
+ position:relative;
+ width: 755px;
+ height:770px;
+ border-radius: 20px;
+ 
+}
+.button{
+      display:flex;
+    justify-self: center;
+    gap:1px;
+    
+    padding:20px;
+    background-color: rgba(204, 66, 149, 0.6);
+    border-radius: 20px;
+    
+text-decoration: none;
+}
+
+.button:hover{
+     background-color: rgba(128, 80, 109, 0.6);
+     transition: 0.5s;
+}
+
+.button:active{
+background-color: rgba(99, 118, 182, 0.6);
+}
