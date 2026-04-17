@@ -2,6 +2,10 @@
     font-family:font;
     src: url(../Fonts/Starborn.ttf)
 }
+@font-face {
+    font-family:font2;
+    src: url(../Fonts/Cute\ Dog.otf)
+}
 body {
     background-image: url(../IMG/Room1.jpg);
      background-size: 100%;
@@ -58,6 +62,7 @@ h1{
     gap:100px;
     align-items:flex-start;
     padding:20px;
+    font-family: "font2";
     background-color: rgb(251, 149, 210,0.6);
     
 }
@@ -71,7 +76,7 @@ h1{
 }
 
 form{
-     margin: 25px;
+    margin: 25px;
     flex-direction:column;
     gap:10px;
 }
@@ -80,29 +85,16 @@ h4{
     
     margin: 25px;
     font-family: "font";
+    font-size: 25px;
     color: rgb(247, 255, 177);
     
 }
 
 .description{
    width: 350px;
-  height: 120px;
-  margin-top: 5px;
+   height: 120px;
+   margin-top: 5px;
 }
-
-
-/* #firstname
-{
-     flex-grow: 1;
-  flex-basis: 160px;
-}
-  
-
-#lastname{
- flex-grow: 3;
-  flex-basis: 200px;
-} */
-
 
 #container
 {
@@ -112,8 +104,6 @@ h4{
  height:770px;
 
 }
-
-
 
 #background
 {
@@ -134,10 +124,6 @@ h4{
     top:-100px;
     left: 180px;
 }
-
-
-
-
 
 
 /* Body Images */
@@ -454,20 +440,19 @@ h4{
 }
 
 .button{
-      display:flex;
-    justify-self: center;
-    gap:1px;
-    
-    padding:20px;
-    background-color: rgba(204, 66, 149, 0.6);
-    border-radius: 20px;
+  display:flex;
+  justify-self: center;
+  gap:1px;
+  padding:20px;
+  background-color: rgba(204, 66, 149, 0.6);
+  border-radius: 20px;
     
 text-decoration: none;
 }
 
 .button:hover{
-     background-color: rgba(128, 80, 109, 0.6);
-     transition: 0.5s;
+  background-color: rgba(128, 80, 109, 0.6);
+  transition: 0.5s;
 }
 
 .button:active{
@@ -475,7 +460,7 @@ background-color: rgba(99, 118, 182, 0.6);
 }
 
 h2{
-      font-family: "font";
+  font-family: "font";
   color: rgb(172, 74, 131);
   text-decoration: none;
 }
@@ -489,6 +474,20 @@ h2{
 
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), #ffcce6);
   color: rgb(223, 135, 196);
-  font-size: 16px;
-  font-family: "font";
+  font-size: 30px;
+  font-family: "font2";
+  
+}
+.traits
+{
+  padding: 3px 16px;
+  margin: 5px;
+
+  border: none;
+  border-radius: 20px;
+
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), #ffcce6);
+  color: rgb(223, 135, 196);
+  font-size: 30px;
+  font-family: "font2";
 }

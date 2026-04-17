@@ -24,8 +24,8 @@ h1{
   color: rgb(247, 255, 177);
 }
 h2{
-      font-family: "font";
-  color: rgb(172, 74, 131);
+  font-family: "font";
+  color: rgba(168, 73, 130, 0.6);
 }
 
 .container
@@ -43,7 +43,7 @@ h2{
     gap:1px;
     
     padding:20px;
-    background-color: rgba(204, 66, 149, 0.6);
+    background-color: rgba(245, 127, 198, 0.6);
     border-radius: 20px;
     
 text-decoration: none;
