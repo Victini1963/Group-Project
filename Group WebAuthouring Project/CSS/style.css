@@ -480,3 +480,15 @@ h2{
   text-decoration: none;
 }
 
+.labels{
+  padding: 10px 16px;
+  margin: 5px;
+
+  border: none;
+  border-radius: 20px;
+
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), #ffcce6);
+  color: rgb(223, 135, 196);
+  font-size: 16px;
+  font-family: "font";
+}
