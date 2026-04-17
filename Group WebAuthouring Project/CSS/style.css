@@ -113,6 +113,8 @@ h4{
 
 }
 
+
+
 #background
 {
     position:absolute;
@@ -450,3 +452,31 @@ h4{
 .cuteBtn:active {
   transform: scale(0.95);
 }
+
+.button{
+      display:flex;
+    justify-self: center;
+    gap:1px;
+    
+    padding:20px;
+    background-color: rgba(204, 66, 149, 0.6);
+    border-radius: 20px;
+    
+text-decoration: none;
+}
+
+.button:hover{
+     background-color: rgba(128, 80, 109, 0.6);
+     transition: 0.5s;
+}
+
+.button:active{
+background-color: rgba(99, 118, 182, 0.6);
+}
+
+h2{
+      font-family: "font";
+  color: rgb(172, 74, 131);
+  text-decoration: none;
+}
+
