@@ -9,6 +9,45 @@ body {
     justify-content:center;
     
 }
+#musicWrap {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#musicLabel {
+  background: #fff0f6;
+  color: #ff69b4;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-family: sans-serif;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+#musicBtn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(135deg, #ffb6d9, #ffcce6);
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#musicBtn:hover {
+  transform: scale(1.1);
+}
+
+#musicBtn:active {
+  transform: scale(0.95);
+}
 h1{
   font-family: "font";
   color: rgb(247, 255, 177);

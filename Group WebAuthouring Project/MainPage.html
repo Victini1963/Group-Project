@@ -103,6 +103,29 @@
     </div>
 
   </div>
+<div id="musicWrap">
+  <span id="musicLabel">Music</span>
+  <button id="musicBtn">🎀</button>
+</div>
+
+<audio id="bgMusic" loop>
+  <source src="../Music/bgm___yummy_flavor___cute___sweet___happy_background_music.mp3" type="audio/mp3">
+</audio>
+
+<script>
+const music = document.getElementById("bgMusic");
+const btn = document.getElementById("musicBtn");
+
+btn.onclick = () => {
+  if (music.paused) {
+    music.play();
+    btn.textContent = "💗";
+  } else {
+    music.pause();
+    btn.textContent = "🎀";
+  }
+};
+</script>
 
   <script src="JS/code.js"></script>
 
