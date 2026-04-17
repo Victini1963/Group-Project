@@ -1,10 +1,17 @@
-
+@font-face {
+    font-family:font;
+    src: url(../Fonts/Starborn.ttf)
+}
 body {
     background-image: url(../IMG/Room1.jpg);
      background-size: 100%;
     display:flex;
     justify-content:center;
     
+}
+h1{
+  font-family: "font";
+  color: rgb(247, 255, 177);
 }
 
 .page{
@@ -33,6 +40,8 @@ form{
 h4{
     
     margin: 25px;
+    font-family: "font";
+    color: rgb(247, 255, 177);
     
 }
 
