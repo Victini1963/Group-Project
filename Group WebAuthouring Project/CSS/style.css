@@ -21,21 +21,21 @@ body {
 #musicLabel {
   background: #fff0f6;
   color: #ff69b4;
-  padding: 5px 10px;
+  padding: 2px 10px;
   border-radius: 12px;
-  font-size: 14px;
+  font-size: 30px;
   font-family: sans-serif;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
 #musicBtn {
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   border: none;
   background: linear-gradient(135deg, #ffb6d9, #ffcce6);
   color: white;
-  font-size: 24px;
+  font-size: 60px;
   cursor: pointer;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   transition: transform 0.2s, box-shadow 0.2s;
