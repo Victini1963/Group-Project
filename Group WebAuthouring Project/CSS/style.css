@@ -239,6 +239,17 @@ h4{
     left: 180px;
 }
 
+.hair5
+{
+      position: absolute;
+    width:555px;
+    height:770px;
+    background-image: url(..//IMG/hair5.png);
+    top:-100px;
+    left: 180px;
+}
+
+
 
 /* Top images */
 
@@ -281,6 +292,15 @@ h4{
     top:-100px;
     left: 180px;
 }
+.top5
+{
+      position: absolute;
+    width:555px;
+    height:770px;
+    background-image: url(..//IMG/top5.png);
+    top:-100px;
+    left: 180px;
+}
 
 
 .bottoms1
@@ -319,6 +339,15 @@ h4{
     top:-100px;
     left: 180px;
 }
+.bottoms5
+{
+      position: absolute;
+    width:555px;
+    height:770px;
+    background-image: url(..//IMG/bottoms5.png);
+    top:-100px;
+    left: 180px;
+}
 
 .shoes1
 {
@@ -344,6 +373,15 @@ h4{
     width:555px;
     height:770px;
     background-image: url(..//IMG/shoes3.png);
+    top:-100px;
+    left: 180px;
+}
+.shoes4
+{
+      position: absolute;
+    width:555px;
+    height:770px;
+    background-image: url(..//IMG/shoes4.png);
     top:-100px;
     left: 180px;
 }

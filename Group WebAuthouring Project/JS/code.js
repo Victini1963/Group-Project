@@ -86,6 +86,12 @@ function nexthair()
       else if (state.j ===3)
     {
         hair.setAttribute("class","hair4");
+        state.j++;
+        console.log(state.j);
+    }
+      else if (state.j ===4)
+    {
+        hair.setAttribute("class","hair5");
         console.log(state.j);
         state.j=0;
     }
@@ -118,6 +124,12 @@ function nexttop()
      else if (state.k ===3)
     {
         top.setAttribute("class","top4");
+        state.k++;
+        console.log(state.k);
+    }
+     else if (state.k ===4)
+    {
+        top.setAttribute("class","top5");
         state.k=0;
         console.log(state.k);
     }
@@ -148,6 +160,12 @@ function nextbottoms()
       else if (state.l ===3)
     {
         bottoms.setAttribute("class","bottoms4");   
+        state.l++;  
+        console.log(state.l);
+    }
+       else if (state.l ===4)
+    {
+        bottoms.setAttribute("class","bottoms5");   
         console.log(state.l);
         state.l=0;
     }
@@ -172,6 +190,12 @@ function nextshoes()
      else if (state.m ===2)
     {
         shoes.setAttribute("class","shoes3");   
+        state.m++;
+        console.log(state.m,);
+    }
+     else if (state.m ===3)
+    {
+        shoes.setAttribute("class","shoes4");   
         console.log(state.m);
         state.m=0;
     }
